@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<HTML LANG="KO">
+    <HEAD><META CHARSET="UFT-8">
+    <META HTTP-EQUIV="X-ua-COMPATIBLE" CONTENT="IE=EDGE">
+    <META NAME="VIEWPOINT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
+    <TITLE>윤소엥에 관하여</TITLE>
+
+    <link rel="stylesheet" href =css>
+    </HEAD>
+
+    <BODY>
+        <nav><div class="container">
+            <h1>안녕하세요</h1>
+            <P> JAVASCPRIPT는 어려워!</P>
+            <script SRC="EX01.JS"></script>
+</BODY></HTML>
