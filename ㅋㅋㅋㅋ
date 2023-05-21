@@ -1,0 +1,87 @@
+b
+</body><script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"
+<script src = "unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js">
+    <script> 
+        const span = React.createElement("h3", null, "hello");
+        const root = document.getElement("root");
+        const btn = React.createElement("button", null, { 
+            onClick:()=>console.log('imclick')
+        style:{ backgroundColor:"tomato",},
+        },"click me");
+        const container = React.createElement("div",null, [span, btn ] )
+        Reactdom.render(span, root);
+    const h3 = React.createElement("h3"{ onmouseenter:()=> console.log("mouseenter")}, "Hello Im span")
+    const btn = React.createElement("button",{ onclick:()=> console.log(im clicked")} null, "click me");
+    const div = React.createElement("div", null,  [span, btn ])
+    fuction Title() {return (<h3 id="title"> onmouseenter={()=> console.log("mouseenter")})heelo</h3> )}
+        const Button = <button>Click me </button>
+        const container= (<div> <Title /><Button /></div>);
+    const Tiltle = (<h3 id="title"> onmouseenter={()=> console.log("mouseenter")})heelo</h3>
+
+let counter =0;
+function countup(){  counter = counter +1}
+<div><h3>total clicks:0 </h3></div>
+<button onclick ={ countup}>clickme<</button>
+const [counter, setcounter ]= rEact.usestate(0);
+const onclick = () =>{ setcounter(counter +1)}; 
+const onclick =() => {  counter = counter +1};
+Reactdom.render(container />, root);
+</script>
+
+function App() {const data upState(0); b  
+console.log();(data))}
+console.log("rendered");
+console.log(counter);
+
+const sounter  = data [0];
+const modifier = data [1];
+
+
+id="hours" 
+placeholder="hours" 
+type="number"
+onclick={onchange}
+CONST ONCHANGE = (EVENT) => {SETMINUTES(EVENT.TARGET.VALUE); RETUREN (<DIV><h1>supper</h1>
+<label>Minutes</label>
+<input id="minutes" placeholder="Minutes" type="nnumber">
+<label for="hours">Hours</label>
+<input value ={minutes}
+</DIV>)}
+/>
+
+<div></div>
+<button onclick={reset}>reset</button>
+</div>
+
+function App() {const [minutes, setMinutes] = React.usestate(0) 
+    const [flipped, setfilpped] = React.usestate(0)}
+const onChange = (event) => {setMinutes(event.target.value);};
+
+const reset = () => setMinutes(0);
+const onFlip = () => false -> true 
+
+return (<div> <h1>super converter </h1><select value={index} onChange={onselect} 
+    <option value="xx">Select yout unit</option>
+    {<option value="0">Minutes&Hours</option> : null}
+        {<option value="1">km&Miles</option> : null}</option></div>)
+
+
+        {index ==="0" ? <MinutestoHours /> :null }
+        {index ==="1" ? <KmtoMiles /> :null }
+
+        function SaveBtn({text, fontsize =14}) { console.log(text, "was rendered")
+        return ( <button 
+            onclick={onClick}{
+                
+            style={{background-color: tomato;, color: white;
+            padding:"10px 20px" border: 0; border:0,borderRadius:10,}}>savechages{text}</button>
+const Memorizedbtn = react.memo()
+            funtion App()
+            [value, setvalue] = React.useState("save changes"; const changeValues = (changevalue) => setvalue)></const>
+            {return(<div> <Memorizedbtn text={value} changeValue={changeValue}/> <Memorizedbtn text="continue"/></div>);}
+
+            <Btn text = "savechanges" fontsize={18} />
+            <Btn fontsize ={14} text = {continue"/}
+
+            Btn.porpTypes = {text:propTypes.string.isRequired,
+            fontsize:PropTypes.number.isRequired}
