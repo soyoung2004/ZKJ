@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 130%;
+    height: 50px;
+    background-color: #f0ece5;
+    box-shadow: 0 7px 15px 2px #e6e2d8;
+    padding-right: 20px;
+    z-index: 3;
+  }
+
+.logout{
+    font-size: 12px;
+    margin-left: 100px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 19px;
+    color: rgb(103, 103, 103);
+    font-family: "a10";
+    text-decoration: none;
+}
+
+.logout:visited{
+    text-decoration: none;
+}
+
+.main {
+    font-size: 24px;
+    margin: -20px auto 0;
+    text-align: center; /* 가운데 정렬을 위해 text-align 속성 추가 */
+    color: #ff8b10;
+    font-family: "Jalnan";
+    z-index: 0;
+  }
+  
+.navigation {
+    float: right;
+    margin-right: 20px;
+    font-size:12px;
+    margin-top: 6px;
+    color: rgb(103, 103, 103);
+    font-family: "a10";
+
+}
